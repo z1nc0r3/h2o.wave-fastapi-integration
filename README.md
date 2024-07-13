@@ -1,19 +1,4 @@
-# Car Price Predictor using H2O Wave
-
-This car price prediction system, built with H2O Wave, and H2O AutoML, utilizes features like year,
-mileage, make, model, and condition to estimate vehicle prices.
-
-
-
-
-https://github.com/z1nc0r3/Car-Price-Predictor-using-H2O-wave/assets/64279853/b93944e0-41ef-4793-9e48-80afb84fb39f
-
-
-
-
-- Train the model with custom datasets (CSV)
-- Use already existing AutoML models for prediction.
-- Save trained AutoML models locally.
+## H2O Wave + FastAPI Integration (Testing)
 
 
 ## Running the app
@@ -54,4 +39,8 @@ To deactivate the virtual environment use ```deactivate``` command.
 
 ### 6. View the app:
 Point your favorite web browser to http://localhost:10101/predictor
+
+
+### 7. Test API endpoints
+```curl --location 'http://0.0.0.0:8008/health'```
 
